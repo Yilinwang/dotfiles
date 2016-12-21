@@ -17,10 +17,10 @@ set tabstop=4
 set shiftwidth=4
 set incsearch
 set hlsearch
+autocmd Filetype html setlocal ts=2 sw=2
 
 colorscheme pixelmuerto
 syntax on
-filetype indent on
 
 nmap gh <C-w>h
 nmap gj <C-w>j
