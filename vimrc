@@ -7,6 +7,7 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'geoffharcourt/vim-matchit'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
+Plugin 'AutoComplPop'
 call vundle#end()
 filetype plugin indent on
 

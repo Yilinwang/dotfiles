@@ -6,6 +6,7 @@ alias ll='ls -al'
 alias rm='trashfunc'
 alias realrm='/bin/rm'
 alias finder='open -a Finder .'
+alias grep='grep --color=auto'
 
 cd() { builtin cd "$@"; ls; }
 pdf() { open -a Preview "$@"; }
