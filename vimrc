@@ -4,14 +4,13 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
-Plugin 'scrooloose/nerdtree'
 Plugin 'geoffharcourt/vim-matchit'
-Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
-Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
-Plugin 'AutoComplPop'
+Plugin 'ycm-core/YouCompleteMe'
+Plugin 'preservim/nerdtree'
+Plugin 'jistr/vim-nerdtree-tabs'
 call vundle#end()
 filetype plugin indent on
 
