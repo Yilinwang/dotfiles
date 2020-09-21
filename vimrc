@@ -8,9 +8,11 @@ Plugin 'geoffharcourt/vim-matchit'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-commentary'
 Plugin 'ycm-core/YouCompleteMe'
 Plugin 'preservim/nerdtree'
 Plugin 'jistr/vim-nerdtree-tabs'
+" Plugin 'AutoComplPop'
 call vundle#end()
 filetype plugin indent on
 
