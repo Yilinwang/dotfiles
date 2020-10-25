@@ -39,6 +39,7 @@ set tabstop=4
 set shiftwidth=4
 set incsearch
 set hlsearch
+set wrap
 autocmd Filetype html setlocal ts=2 sw=2
 
 colorscheme pixelmuerto
